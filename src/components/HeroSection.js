@@ -25,7 +25,7 @@ function HeroSection() {
         <span className="foods">Foods</span>
         <br />
         {Records &&
-          Records.filter((record) => {
+          Records.filter( (record) => {
             if (searchTerm === "") {
               return record;
             } else if (
@@ -36,13 +36,15 @@ function HeroSection() {
           }).map((record) => {
             return (
               <div className="card1" key={record.id}>
-                <Card   style={{ width: "18rem" ,display:'flex', flexDirection:"column" }}>
+                
+                <Card   style={{ width: "18rem" }}>
                   <Card.Img variant="top" src={record.imageUrl} />
                   <Card.Body>
-                    <Card.Title>{record.Ingredient}</Card.Title>
-                    <Card.Text>{record.Shorttext}</Card.Text>
+                    <Card.Title className="ingredient">{record.Ingredient}</Card.Title>
+                    <Card.Text className="shorttext">{record.Shorttext}</Card.Text>
                   </Card.Body>
                 </Card>
+                
               </div>
               
             );

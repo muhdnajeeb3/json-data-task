@@ -14,6 +14,7 @@
 .hrlogo{
     height: 2px;
     background-color: black;
+    min-width: 100%;
     
        
     
@@ -22,26 +23,53 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 300px;
+    width: 60%;
     height: 40px;
    
-
-
 }.foods{
     font-weight: bold;
     margin-left: 0.8rem;
     color: #30384d;
     margin-left: 2rem;
-    text-align: center;
-    justify-content: center;
 }
 .card1{
-    display: flex ;
-    flex-direction: column ;
+    
+    width: 100%;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    display: block;
 }
-
+.inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+.ingredient{
+    font-weight: 700;
+    size: 0.85rem;
+    color: #30384d;
+}
+.shorttext{
+    font-weight: 500;
+    size: 0.7rem;
+    color: #7e8a9a;
+}
+@media screen and (max-width: 562px) {
+    .input{
+        min-width: 70%;
+        /* margin-left: 1rem; */
+        justify-content: center;
+    }
+    .hrlogo{
+        min-width: 100%;
+    }
+    .card1{
+        justify-content: center;
+    }
+    .inner{
+        display: block;
+        justify-content: center;
+    }
+}
 
 
