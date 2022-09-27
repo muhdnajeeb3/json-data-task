@@ -1,0 +1,56 @@
+.Datepicker{
+    margin-top: 2rem;
+    margin-left: 55rem;
+    justify-content: end;
+    top: 2rem;
+
+    
+}
+.date{
+    border: black;
+    text-align: center;
+    justify-content: center;
+}
+.pick{
+    margin-right: 7rem;
+    width: 300px;
+    border: none;
+}
+.hr1{
+    width: 50%;
+    margin-left: 14rem;
+    color: black;
+}
+.react-datepicker__month-container {
+    float: left;
+    background-color: #142A51 !important;
+}
+.react-datepicker__day{
+    color: wheat !important;
+
+}
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+background: #142A51;
+
+}
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+background: #142A51;
+
+
+}
+
+
+.daaate{
+    width: 50%;
+    margin: 4rem;
+    
+    border: none;
+}
+.daaate::after{
+    background: green;
+    background-color: red;
+}
+input[type="date"]:not(.has-value):before{
+    color: lightgray;
+    content: attr(placeholder);
+  }

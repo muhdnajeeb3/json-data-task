@@ -1,10 +1,13 @@
 import React from 'react'
-import HeroSection from '../components/HeroSection'
+import Datepicker from '../components/Datepicker'
+import First from '../components/First'
+
 
 function Home() {
   return (
     <>
-    <HeroSection />
+    <First />
+    <Datepicker />
     </>
     )
 }

@@ -1,0 +1,143 @@
+.input{
+    border: none;
+     background: #1C3663;
+     /* background: #fff; */
+     width: 100%;
+     /* padding: 1rem; */
+     /* margin: 1rem; */
+     height: 48px;
+     /* width: 80% !important; */
+     border-radius: 8px;
+    
+}
+.drop{
+    background: #142A51 !important;
+    width: 40%;
+    margin-top: 10px !important;
+
+}
+.tog{
+    background: #F0F5FB !important;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    width: 40%;
+    
+
+}
+.heading{
+    color: #556E9A;
+
+}
+.dropdown-toggle {
+    white-space: nowrap;
+    color: #556E9A !important;
+}
+.name{
+    color: #DAE2EF;
+    
+    font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.prac{
+    color: #A0B5D9;
+    margin-top: 10px;
+    
+    font-family: Montserrat;
+font-size: 25px;
+
+letter-spacing: 0em;
+/* text-align: left; */
+margin-left: 10px;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.prac1{
+  
+    color: #DAE2EF;
+
+    margin-top: 10px;
+    
+    font-family: Montserrat;
+font-size: 25px;
+
+letter-spacing: 0em;
+/* text-align: left; */
+margin-left: 10px;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+.check{
+    margin-left: auto;
+    cursor: pointer;
+}
+.dropdown-item:hover{
+     /* background: #142A51;
+     bac */
+     background: #142A51 !important;
+    
+}
+input[type=checkbox] { width: auto }
+label {
+    float: left;
+    margin: 5px 0px;
+}
+
+input {
+    float: right;
+    margin: 5px 0px;
+    width: 200px;
+    border:solid 1px;
+}
+.input1{
+    /* color: #fff; */
+}
+.name1{
+    margin-left: 10px;
+    color: #DAE2EF;
+    font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.check1{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.check2{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.hr{
+    color: #fff;
+    width: 100%;
+}
+
+/* icon */
